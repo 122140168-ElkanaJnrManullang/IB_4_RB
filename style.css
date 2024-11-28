@@ -1,0 +1,83 @@
+body {
+  background: rgba(128, 175, 129, 0.5) !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  color: blue !important;
+}
+
+.rectangle {
+  background: rgba(26, 83, 25, 1);
+  height: 50px;
+}
+
+.left-box {
+  background: rgba(11, 70, 12, 0.5);
+  border-radius: 37px;
+}
+
+.right-box img {
+  border-radius: 55px;
+}
+
+.custom-button {
+  width: 70px;
+  height: 70px;
+  background: rgba(101, 142, 102, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.custom-button:hover {
+  transform: scale(1.1);
+  background-color: #2f4f2f;
+}
+
+.custom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(26, 83, 25, 1);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.custom-button i {
+  color: white;
+  font-size: 24px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #d4e7d4;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.search-box input::placeholder {
+  color: #999;
+}
+
+.search-box .fa-search {
+  color: #999;
+  font-size: 18px;
+}
