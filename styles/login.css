@@ -1,0 +1,22 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(11, 70, 12, 1);
+}
+
+.box-area-login{
+    width: 930px;
+}
+
+.left-box{
+    background: #0B460C80;
+}
+
+.right-box .header-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.input-group .btn img{
+    width: 20px;
+}
