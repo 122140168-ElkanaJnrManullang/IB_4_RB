@@ -1,30 +1,3 @@
-body {
-  background: rgba(128, 175, 129, 0.5) !important;
-}
-
-a {
-  text-decoration: none !important;
-  color: black !important;
-}
-
-a:hover {
-  color: blue !important;
-}
-
-.rectangle {
-  background: rgba(26, 83, 25, 1);
-  height: 50px;
-}
-
-.left-box {
-  background: rgba(11, 70, 12, 0.5);
-  border-radius: 37px;
-}
-
-.right-box img {
-  border-radius: 55px;
-}
-
 .custom-button {
   width: 70px;
   height: 70px;
@@ -42,13 +15,17 @@ a:hover {
   background-color: #2f4f2f;
 }
 
+a {
+  text-decoration: none;
+}
+
 .custom-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(26, 83, 25, 1);
+  background: #1a5319;
   padding: 20px;
-  border-radius: 73px;
+  border-radius: 75px;
   width: fit-content;
   justify-self: center;
 }
@@ -82,4 +59,51 @@ a:hover {
 .search-box .fa-search {
   color: #999;
   font-size: 18px;
+}
+
+body {
+  background: rgba(128, 175, 129, 0.5) !important;
+}
+
+.navbar {
+  background: rgba(26, 83, 25, 1) !important;
+  padding: 10px;
+  height: 50px;
+}
+
+.icon-group {
+  background-color: #466446;
+  padding: 10px 15px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: max-content;
+  margin: 20px auto;
+}
+
+.icon-group i {
+  font-size: 24px;
+  color: white;
+}
+
+.btn-custom {
+  background-color: #5d7d5d;
+  color: white;
+  border-radius: 37px;
+  width: 240px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.btn-custom:hover {
+  background-color: #4c6b4c;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
 }

@@ -1,0 +1,99 @@
+body {
+  background: rgba(128, 175, 129, 0.5) !important;
+}
+
+.navbar {
+  background: rgba(26, 83, 25, 1) !important;
+  padding: 10px;
+  height: 50px;
+}
+
+.icon-group {
+  background-color: #466446;
+  padding: 10px 15px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: max-content;
+  margin: 20px auto;
+}
+.icon-group i {
+  font-size: 24px;
+  color: white;
+}
+
+.btn-custom {
+  background-color: #5d7d5d;
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-custom:hover {
+  background-color: #4c6b4c;
+}
+
+.schedule-section {
+  background: rgba(128, 175, 129, 1) !important;
+  border-radius: 15px;
+  padding: 15px;
+}
+.schedule-section h5 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+.schedule-time {
+  font-weight: bold;
+}
+.schedule-box {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  width: 90%;
+}
+
+.custom-button {
+  width: 70px;
+  height: 70px;
+  background: rgba(101, 142, 102, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.custom-button:hover {
+  transform: scale(1.1);
+  background-color: #2f4f2f;
+}
+
+.custom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(26, 83, 25, 1);
+  padding: 20px;
+  border-radius: 73px;
+  width: fit-content;
+  justify-self: center;
+}
+
+.custom-button i {
+  color: white;
+  font-size: 24px;
+}
