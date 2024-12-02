@@ -36,14 +36,18 @@
             </div>
             <div class="mb-3">
                 <label for="gender" class="form-label">Gender</label>
-                <input type="text" class="form-control" id="gender" placeholder="Masukkan Gender">
+                <select class="form-select" id="gender">
+                    <option selected disabled>Pilih Gender</option>
+                    <option value="1">Pria</option>
+                    <option value="2">Wanita</option>
+                </select>
             </div>
             <div class="mb-3">
                 <label for="allergy" class="form-label">Alergi</label>
                 <select class="form-select" id="allergy">
                     <option selected disabled>Pilih Alergi</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
+                    <option value="1">Sea Food</option>
+                    <option value="2">Protein Hewani</option>
                 </select>
             </div>
             <button type="submit" class="btn w-100"><i class="fa-solid fa-check"></i> Konfirmasi</button>
