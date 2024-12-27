@@ -3,21 +3,24 @@ document.getElementById('login-btn').addEventListener('click', async function ()
     const password = document.getElementById('password').value;
 
     try {
-        const response = await fetch('http://localhost:5000/api/auth/login', {
+        const response = await fetch('/login', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, password })
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ email, password }),
         });
-
-        const data = await response.json();
+    
         if (response.ok) {
+            const data = await response.json();
             alert('Login successful!');
-            console.log(data); // Bisa diarahkan ke halaman lain
+            window.location.href = '/index'; // Redirect on success
         } else {
-            alert(data.message || 'Login failed');
+            const error = await response.json();
+            alert(`Login failed: ${error.message}`);
         }
-    } catch (error) {
-        console.error('Error:', error);
-        alert('An error occurred. Please try again.');
+    
     }
-});
+}
+
+);
